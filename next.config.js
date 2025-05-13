@@ -6,7 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/GabijuJannifer' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/prototipo-log-digital' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/prototipo-log-digital/' : '',
 }
 
 module.exports = nextConfig 
